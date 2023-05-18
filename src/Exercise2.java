@@ -8,8 +8,8 @@ public class Exercise2 {
         } else {
             bonus = 0;
         }
-        int total_on_account = onAccount + refill +bonus;
+        int totalOnAccount = onAccount + refill +bonus;
         System.out.println("Бонус:" + bonus);
-        System.out.println("Итоговый счет:" + total_on_account);
+        System.out.println("Итоговый счет:" + totalOnAccount);
     }
 }
